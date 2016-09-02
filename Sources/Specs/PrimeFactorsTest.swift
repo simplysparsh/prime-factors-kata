@@ -44,6 +44,17 @@ let PrimeFactorsTest = describe("PrimeFactors") {
       expect(PrimeFactors.generate(number: 9)).to(equal: expectedOutput) 
     }
 
+    it("returns [2,3,5,7,11,13] when input is 2*3*5*7*11*13") {
+      let expectedOutput: [Int] = [2,3,5,7,11,13]
+      expect(PrimeFactors.generate(number: 2*3*5*7*11*13)).to(equal: expectedOutput) 
+    }
+
+    it("returns [8191, 131071] when input is 8191 * 131071") {
+      let expectedOutput: [Int] = [8191, 131071]
+      expect(PrimeFactors.generate(number: 8191 * 131071)).to(equal: expectedOutput) 
+    }
+
+
   }
 }
 
