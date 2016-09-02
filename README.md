@@ -11,10 +11,9 @@ The aim behind writing this program was to get familiar with the basics of Swift
 
 This requires Swift 3.0 to run which is still not officially released. Therefore, we will use a tool called `Docker` to run it easily and effectively.
 
-```
-Step 1. Download Docker [here](https://www.docker.com/).
-Step 2. Intall and run Docker.
-```
+1. Download Docker [here](https://www.docker.com/).
+2. Intall and run Docker.
+
 After completing the above two steps, use your terminal to go inside the prime-factors-kata directory (by using `cd` command). Now, simply run the following command through the terminal:
 
 ```
