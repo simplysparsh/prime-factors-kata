@@ -2,7 +2,7 @@
 public class PrimeFactors {
 
   static public func generate(number: Int) -> Array<Int> {
-	  var factors: [Int] = []
+    var factors: [Int] = []
     var num = number
     var divisor = 2
 
