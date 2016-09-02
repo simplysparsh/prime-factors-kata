@@ -1,18 +1,22 @@
 
 public class PrimeFactors {
 
-  static public func generate(num: Int) -> Array<Int> {
-	  var primeFactors: [Int] = [1]
+  static public func generate(number: Int) -> Array<Int> {
+	  var factors: [Int] = []
+    var num = number
 
-    if num == 2 {
-      primeFactors = [2]
-    } else if (num % 2) == 0 {
-      primeFactors = [2, num/2]
-    } else {
-      primeFactors = [num]
-    }
+    if num > 1 {   
+        while (num % 2) == 0 {
+          factors.append(2)
+          num = num/2
+        }
+      } 
+      
+    if num > 1 {
+      factors.append(num)
+    }  
 
-    return primeFactors
+    return factors
   }
   
 }
