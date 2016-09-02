@@ -18,7 +18,7 @@ Step 2. Intall and run Docker.
 After completing the above two steps, use your terminal to go inside the prime-factors-kata directory (by using `cd` command). Now, simply run the following command through the terminal:
 
 ```
-docker run -w /app -v $PWD:/app swiftdocker/swift:snapshot-2016-05-31-a make
+$ docker run -w /app -v $PWD:/app swiftdocker/swift:snapshot-2016-05-31-a make
 ```
 
 ## Output
