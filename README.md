@@ -3,6 +3,8 @@ A code kata is an exercise in programming which helps a programmer hone their sk
 
 This coding Kata in Swift finds prime factors of a given number. It is inspired by Robert Martin aka Uncle Bob's [Prime Factor Kata](http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata). 
 
+See it in action thorugh this [Screencast](https://www.youtube.com/watch?v=0nf5ptEaLwI). 
+
 ## Development
 
 The aim behind writing this program was to get familiar with the basics of Swift while getting used to its Static typed style (in contrast to dynamically typed ruby). Further, I wanted to get started with Test Driven Development in Swift and this was a good way to do it.  
